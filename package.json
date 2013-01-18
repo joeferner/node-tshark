@@ -12,5 +12,9 @@
     "tshark"
   ],
   "author": "Joe Ferner <joe@fernsroth.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "nodeunit": "~0.7.4",
+    "lazy": "git://github.com/pkrumins/node-lazy.git"
+  }
 }
