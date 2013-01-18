@@ -1,0 +1,16 @@
+{
+  "name": "tshark",
+  "version": "0.0.1",
+  "description": "Node wrapper around WireShark's tshark packet processor",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/nodeunit test"
+  },
+  "repository": "",
+  "keywords": [
+    "wireshark",
+    "tshark"
+  ],
+  "author": "Joe Ferner <joe@fernsroth.com>",
+  "license": "MIT"
+}
