@@ -15,6 +15,7 @@ module.exports = {
       if (errorOccured) {
         return 0;
       }
+      //console.log(packet);
       if (!packet.tcp || packet.tcp.streamIndex != 0 || packet.tcp.destPort != 80 || packet.tcp.data.length == 0) {
         return 0;
       }
