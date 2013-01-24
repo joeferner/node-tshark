@@ -8,5 +8,5 @@ echo ""
 PACKET_SEP="--------------------------------------------------"
 
 for f in *.pcap; do
-  tshark -C node-tshark -r $f -x -V -S -Eseparator=$PACKET_SEP > `basename ${f%.*}`.tshark
+  tshark -C node-tshark -r $f -x -V -S $PACKET_SEP > `basename ${f%.*}`.tshark
 done
