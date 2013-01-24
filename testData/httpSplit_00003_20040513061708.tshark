@@ -1,6 +1,6 @@
 Frame 1: 533 bytes on wire (4264 bits), 533 bytes captured (4264 bits) on interface 0
     Interface id: 0
-    Encapsulation type: Ethernet (1)
+    WTAP_ENCAP: 1
     Arrival Time: May 13, 2004 06:17:08.222534000 EDT
     [Time shift for this packet: 0.000000000 seconds]
     Epoch Time: 1084443428.222534000 seconds
@@ -43,6 +43,8 @@ Internet Protocol Version 4, Src: 145.254.160.237 (145.254.160.237), Dst: 65.208
         [Bad: False]
     Source: 145.254.160.237 (145.254.160.237)
     Destination: 65.208.228.223 (65.208.228.223)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
 Transmission Control Protocol, Src Port: tip2 (3372), Dst Port: http (80), Seq: 951057940, Ack: 290218380, Len: 479
     Source port: tip2 (3372)
     Destination port: http (80)
@@ -64,7 +66,7 @@ Transmission Control Protocol, Src Port: tip2 (3372), Dst Port: http (80), Seq: 
         .... .... ...0 = Fin: Not set
     Window size value: 9660
     [Calculated window size: 9660]
-    [Window size scaling factor: -1 (unkown)]
+    [Window size scaling factor: -1 (unknown)]
     Checksum: 0xa958 [validation disabled]
         [Good Checksum: False]
         [Bad Checksum: False]
@@ -125,4 +127,4 @@ Hypertext Transfer Protocol
 01f0  77 77 77 2e 65 74 68 65 72 65 61 6c 2e 63 6f 6d   www.ethereal.com
 0200  2f 64 65 76 65 6c 6f 70 6d 65 6e 74 2e 68 74 6d   /development.htm
 0210  6c 0d 0a 0d 0a                                    l....
---------------------------------------------------
+

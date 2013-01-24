@@ -1,6 +1,6 @@
 Frame 1: 62 bytes on wire (496 bits), 62 bytes captured (496 bits) on interface 0
     Interface id: 0
-    Encapsulation type: Ethernet (1)
+    WTAP_ENCAP: 1
     Arrival Time: May 13, 2004 06:17:07.311224000 EDT
     [Time shift for this packet: 0.000000000 seconds]
     Epoch Time: 1084443427.311224000 seconds
@@ -43,6 +43,8 @@ Internet Protocol Version 4, Src: 145.254.160.237 (145.254.160.237), Dst: 65.208
         [Bad: False]
     Source: 145.254.160.237 (145.254.160.237)
     Destination: 65.208.228.223 (65.208.228.223)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
 Transmission Control Protocol, Src Port: tip2 (3372), Dst Port: http (80), Seq: 951057939, Len: 0
     Source port: tip2 (3372)
     Destination port: http (80)
@@ -92,4 +94,4 @@ Transmission Control Protocol, Src Port: tip2 (3372), Dst Port: http (80), Seq: 
 0010  00 30 0f 41 40 00 80 06 91 eb 91 fe a0 ed 41 d0   .0.A@.........A.
 0020  e4 df 0d 2c 00 50 38 af fe 13 00 00 00 00 70 02   ...,.P8.......p.
 0030  22 38 c3 0c 00 00 02 04 05 b4 01 01 04 02         "8............
---------------------------------------------------
+

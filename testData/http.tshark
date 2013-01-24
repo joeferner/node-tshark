@@ -1,5 +1,5 @@
 Frame 1: 62 bytes on wire (496 bits), 62 bytes captured (496 bits)
-    Encapsulation type: Ethernet (1)
+    WTAP_ENCAP: 1
     Arrival Time: May 13, 2004 06:17:07.311224000 EDT
     [Time shift for this packet: 0.000000000 seconds]
     Epoch Time: 1084443427.311224000 seconds
@@ -42,6 +42,8 @@ Internet Protocol Version 4, Src: 145.254.160.237 (145.254.160.237), Dst: 65.208
         [Bad: False]
     Source: 145.254.160.237 (145.254.160.237)
     Destination: 65.208.228.223 (65.208.228.223)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
 Transmission Control Protocol, Src Port: tip2 (3372), Dst Port: http (80), Seq: 951057939, Len: 0
     Source port: tip2 (3372)
     Destination port: http (80)
@@ -91,9 +93,9 @@ Transmission Control Protocol, Src Port: tip2 (3372), Dst Port: http (80), Seq: 
 0010  00 30 0f 41 40 00 80 06 91 eb 91 fe a0 ed 41 d0   .0.A@.........A.
 0020  e4 df 0d 2c 00 50 38 af fe 13 00 00 00 00 70 02   ...,.P8.......p.
 0030  22 38 c3 0c 00 00 02 04 05 b4 01 01 04 02         "8............
---------------------------------------------------
+
 Frame 2: 62 bytes on wire (496 bits), 62 bytes captured (496 bits)
-    Encapsulation type: Ethernet (1)
+    WTAP_ENCAP: 1
     Arrival Time: May 13, 2004 06:17:08.222534000 EDT
     [Time shift for this packet: 0.000000000 seconds]
     Epoch Time: 1084443428.222534000 seconds
@@ -136,6 +138,8 @@ Internet Protocol Version 4, Src: 65.208.228.223 (65.208.228.223), Dst: 145.254.
         [Bad: False]
     Source: 65.208.228.223 (65.208.228.223)
     Destination: 145.254.160.237 (145.254.160.237)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
 Transmission Control Protocol, Src Port: http (80), Dst Port: tip2 (3372), Seq: 290218379, Ack: 951057940, Len: 0
     Source port: http (80)
     Destination port: tip2 (3372)
@@ -189,9 +193,9 @@ Transmission Control Protocol, Src Port: http (80), Dst Port: tip2 (3372), Seq: 
 0010  00 30 00 00 40 00 2f 06 f2 2c 41 d0 e4 df 91 fe   .0..@./..,A.....
 0020  a0 ed 00 50 0d 2c 11 4c 61 8b 38 af fe 14 70 12   ...P.,.La.8...p.
 0030  16 d0 5b dc 00 00 02 04 05 64 01 01 04 02         ..[......d....
---------------------------------------------------
+
 Frame 3: 54 bytes on wire (432 bits), 54 bytes captured (432 bits)
-    Encapsulation type: Ethernet (1)
+    WTAP_ENCAP: 1
     Arrival Time: May 13, 2004 06:17:08.222534000 EDT
     [Time shift for this packet: 0.000000000 seconds]
     Epoch Time: 1084443428.222534000 seconds
@@ -234,6 +238,8 @@ Internet Protocol Version 4, Src: 145.254.160.237 (145.254.160.237), Dst: 65.208
         [Bad: False]
     Source: 145.254.160.237 (145.254.160.237)
     Destination: 65.208.228.223 (65.208.228.223)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
 Transmission Control Protocol, Src Port: tip2 (3372), Dst Port: http (80), Seq: 951057940, Ack: 290218380, Len: 0
     Source port: tip2 (3372)
     Destination port: http (80)
@@ -265,9 +271,9 @@ Transmission Control Protocol, Src Port: tip2 (3372), Dst Port: http (80), Seq: 
 0010  00 28 0f 44 40 00 80 06 91 f0 91 fe a0 ed 41 d0   .(.D@.........A.
 0020  e4 df 0d 2c 00 50 38 af fe 14 11 4c 61 8c 50 10   ...,.P8....La.P.
 0030  25 bc 79 64 00 00                                 %.yd..
---------------------------------------------------
+
 Frame 4: 533 bytes on wire (4264 bits), 533 bytes captured (4264 bits)
-    Encapsulation type: Ethernet (1)
+    WTAP_ENCAP: 1
     Arrival Time: May 13, 2004 06:17:08.222534000 EDT
     [Time shift for this packet: 0.000000000 seconds]
     Epoch Time: 1084443428.222534000 seconds
@@ -310,6 +316,8 @@ Internet Protocol Version 4, Src: 145.254.160.237 (145.254.160.237), Dst: 65.208
         [Bad: False]
     Source: 145.254.160.237 (145.254.160.237)
     Destination: 65.208.228.223 (65.208.228.223)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
 Transmission Control Protocol, Src Port: tip2 (3372), Dst Port: http (80), Seq: 951057940, Ack: 290218380, Len: 479
     Source port: tip2 (3372)
     Destination port: http (80)
@@ -392,9 +400,9 @@ Hypertext Transfer Protocol
 01f0  77 77 77 2e 65 74 68 65 72 65 61 6c 2e 63 6f 6d   www.ethereal.com
 0200  2f 64 65 76 65 6c 6f 70 6d 65 6e 74 2e 68 74 6d   /development.htm
 0210  6c 0d 0a 0d 0a                                    l....
---------------------------------------------------
+
 Frame 5: 54 bytes on wire (432 bits), 54 bytes captured (432 bits)
-    Encapsulation type: Ethernet (1)
+    WTAP_ENCAP: 1
     Arrival Time: May 13, 2004 06:17:08.783340000 EDT
     [Time shift for this packet: 0.000000000 seconds]
     Epoch Time: 1084443428.783340000 seconds
@@ -437,6 +445,8 @@ Internet Protocol Version 4, Src: 65.208.228.223 (65.208.228.223), Dst: 145.254.
         [Bad: False]
     Source: 65.208.228.223 (65.208.228.223)
     Destination: 145.254.160.237 (145.254.160.237)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
 Transmission Control Protocol, Src Port: http (80), Dst Port: tip2 (3372), Seq: 290218380, Ack: 951058419, Len: 0
     Source port: http (80)
     Destination port: tip2 (3372)
@@ -469,9 +479,9 @@ Transmission Control Protocol, Src Port: http (80), Dst Port: tip2 (3372), Seq: 
 0010  00 28 c0 9e 40 00 2f 06 31 96 41 d0 e4 df 91 fe   .(..@./.1.A.....
 0020  a0 ed 00 50 0d 2c 11 4c 61 8c 38 af ff f3 50 10   ...P.,.La.8...P.
 0030  19 20 84 21 00 00                                 . .!..
---------------------------------------------------
+
 Frame 6: 1434 bytes on wire (11472 bits), 1434 bytes captured (11472 bits)
-    Encapsulation type: Ethernet (1)
+    WTAP_ENCAP: 1
     Arrival Time: May 13, 2004 06:17:08.993643000 EDT
     [Time shift for this packet: 0.000000000 seconds]
     Epoch Time: 1084443428.993643000 seconds
@@ -514,6 +524,8 @@ Internet Protocol Version 4, Src: 65.208.228.223 (65.208.228.223), Dst: 145.254.
         [Bad: False]
     Source: 65.208.228.223 (65.208.228.223)
     Destination: 145.254.160.237 (145.254.160.237)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
 Transmission Control Protocol, Src Port: http (80), Dst Port: tip2 (3372), Seq: 290218380, Ack: 951058419, Len: 1380
     Source port: http (80)
     Destination port: tip2 (3372)
@@ -633,9 +645,9 @@ Transmission Control Protocol, Src Port: http (80), Dst Port: tip2 (3372), Seq: 
 0570  20 20 20 20 20 20 20 20 3c 64 69 76 20 63 6c 61           <div cla
 0580  73 73 3d 22 74 6f 70 66 6f 72 6d 74 65 78 74 22   ss="topformtext"
 0590  3e 0a 20 20 20 20 20 20 20 20                     >.        
---------------------------------------------------
+
 Frame 7: 54 bytes on wire (432 bits), 54 bytes captured (432 bits)
-    Encapsulation type: Ethernet (1)
+    WTAP_ENCAP: 1
     Arrival Time: May 13, 2004 06:17:09.123830000 EDT
     [Time shift for this packet: 0.000000000 seconds]
     Epoch Time: 1084443429.123830000 seconds
@@ -678,6 +690,8 @@ Internet Protocol Version 4, Src: 145.254.160.237 (145.254.160.237), Dst: 65.208
         [Bad: False]
     Source: 145.254.160.237 (145.254.160.237)
     Destination: 65.208.228.223 (65.208.228.223)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
 Transmission Control Protocol, Src Port: tip2 (3372), Dst Port: http (80), Seq: 951058419, Ack: 290219760, Len: 0
     Source port: tip2 (3372)
     Destination port: http (80)
@@ -710,9 +724,9 @@ Transmission Control Protocol, Src Port: tip2 (3372), Dst Port: http (80), Seq: 
 0010  00 28 0f 46 40 00 80 06 91 ee 91 fe a0 ed 41 d0   .(.F@.........A.
 0020  e4 df 0d 2c 00 50 38 af ff f3 11 4c 66 f0 50 10   ...,.P8....Lf.P.
 0030  25 bc 72 21 00 00                                 %.r!..
---------------------------------------------------
+
 Frame 8: 1434 bytes on wire (11472 bits), 1434 bytes captured (11472 bits)
-    Encapsulation type: Ethernet (1)
+    WTAP_ENCAP: 1
     Arrival Time: May 13, 2004 06:17:09.123830000 EDT
     [Time shift for this packet: 0.000000000 seconds]
     Epoch Time: 1084443429.123830000 seconds
@@ -755,6 +769,8 @@ Internet Protocol Version 4, Src: 65.208.228.223 (65.208.228.223), Dst: 145.254.
         [Bad: False]
     Source: 65.208.228.223 (65.208.228.223)
     Destination: 145.254.160.237 (145.254.160.237)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
 Transmission Control Protocol, Src Port: http (80), Dst Port: tip2 (3372), Seq: 290219760, Ack: 951058419, Len: 1380
     Source port: http (80)
     Destination port: tip2 (3372)
@@ -874,9 +890,9 @@ Transmission Control Protocol, Src Port: http (80), Dst Port: tip2 (3372), Seq: 
 0570  3e 3c 21 2d 2d 0a 67 6f 6f 67 6c 65 5f 61 64 5f   ><!--.google_ad_
 0580  63 6c 69 65 6e 74 20 3d 20 22 70 75 62 2d 32 33   client = "pub-23
 0590  30 39 31 39 31 39 34 38 36 37                     0919194867
---------------------------------------------------
+
 Frame 9: 54 bytes on wire (432 bits), 54 bytes captured (432 bits)
-    Encapsulation type: Ethernet (1)
+    WTAP_ENCAP: 1
     Arrival Time: May 13, 2004 06:17:09.324118000 EDT
     [Time shift for this packet: 0.000000000 seconds]
     Epoch Time: 1084443429.324118000 seconds
@@ -919,6 +935,8 @@ Internet Protocol Version 4, Src: 145.254.160.237 (145.254.160.237), Dst: 65.208
         [Bad: False]
     Source: 145.254.160.237 (145.254.160.237)
     Destination: 65.208.228.223 (65.208.228.223)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
 Transmission Control Protocol, Src Port: tip2 (3372), Dst Port: http (80), Seq: 951058419, Ack: 290221140, Len: 0
     Source port: tip2 (3372)
     Destination port: http (80)
@@ -951,9 +969,9 @@ Transmission Control Protocol, Src Port: tip2 (3372), Dst Port: http (80), Seq: 
 0010  00 28 0f 47 40 00 80 06 91 ed 91 fe a0 ed 41 d0   .(.G@.........A.
 0020  e4 df 0d 2c 00 50 38 af ff f3 11 4c 6c 54 50 10   ...,.P8....LlTP.
 0030  25 bc 6c bd 00 00                                 %.l...
---------------------------------------------------
+
 Frame 10: 1434 bytes on wire (11472 bits), 1434 bytes captured (11472 bits)
-    Encapsulation type: Ethernet (1)
+    WTAP_ENCAP: 1
     Arrival Time: May 13, 2004 06:17:09.754737000 EDT
     [Time shift for this packet: 0.000000000 seconds]
     Epoch Time: 1084443429.754737000 seconds
@@ -996,6 +1014,8 @@ Internet Protocol Version 4, Src: 65.208.228.223 (65.208.228.223), Dst: 145.254.
         [Bad: False]
     Source: 65.208.228.223 (65.208.228.223)
     Destination: 145.254.160.237 (145.254.160.237)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
 Transmission Control Protocol, Src Port: http (80), Dst Port: tip2 (3372), Seq: 290221140, Ack: 951058419, Len: 1380
     Source port: http (80)
     Destination port: tip2 (3372)
@@ -1115,9 +1135,9 @@ Transmission Control Protocol, Src Port: http (80), Dst Port: tip2 (3372), Seq: 
 0570  2e 63 6f 6d 2f 70 75 62 2f 65 74 68 65 72 65 61   .com/pub/etherea
 0580  6c 2f 22 3e 4d 61 69 6e 20 73 69 74 65 3c 2f 61   l/">Main site</a
 0590  3e 0a 3c 61 20 68 72 65 66 3d                     >.<a href=
---------------------------------------------------
+
 Frame 11: 1434 bytes on wire (11472 bits), 1434 bytes captured (11472 bits)
-    Encapsulation type: Ethernet (1)
+    WTAP_ENCAP: 1
     Arrival Time: May 13, 2004 06:17:09.864896000 EDT
     [Time shift for this packet: 0.000000000 seconds]
     Epoch Time: 1084443429.864896000 seconds
@@ -1160,6 +1180,8 @@ Internet Protocol Version 4, Src: 65.208.228.223 (65.208.228.223), Dst: 145.254.
         [Bad: False]
     Source: 65.208.228.223 (65.208.228.223)
     Destination: 145.254.160.237 (145.254.160.237)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
 Transmission Control Protocol, Src Port: http (80), Dst Port: tip2 (3372), Seq: 290222520, Ack: 951058419, Len: 1380
     Source port: http (80)
     Destination port: tip2 (3372)
@@ -1279,9 +1301,9 @@ Transmission Control Protocol, Src Port: http (80), Dst Port: tip2 (3372), Seq: 
 0570  0a 46 54 50 3a 0a 3c 61 20 68 72 65 66 3d 22 66   .FTP:.<a href="f
 0580  74 70 3a 2f 2f 66 74 70 2e 65 74 68 65 72 65 61   tp://ftp.etherea
 0590  6c 2e 63 6f 6d 2f 70 75 62 2f                     l.com/pub/
---------------------------------------------------
+
 Frame 12: 54 bytes on wire (432 bits), 54 bytes captured (432 bits)
-    Encapsulation type: Ethernet (1)
+    WTAP_ENCAP: 1
     Arrival Time: May 13, 2004 06:17:09.864896000 EDT
     [Time shift for this packet: 0.000000000 seconds]
     Epoch Time: 1084443429.864896000 seconds
@@ -1324,6 +1346,8 @@ Internet Protocol Version 4, Src: 145.254.160.237 (145.254.160.237), Dst: 65.208
         [Bad: False]
     Source: 145.254.160.237 (145.254.160.237)
     Destination: 65.208.228.223 (65.208.228.223)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
 Transmission Control Protocol, Src Port: tip2 (3372), Dst Port: http (80), Seq: 951058419, Ack: 290223900, Len: 0
     Source port: tip2 (3372)
     Destination port: http (80)
@@ -1355,9 +1379,9 @@ Transmission Control Protocol, Src Port: tip2 (3372), Dst Port: http (80), Seq: 
 0010  00 28 0f 48 40 00 80 06 91 ec 91 fe a0 ed 41 d0   .(.H@.........A.
 0020  e4 df 0d 2c 00 50 38 af ff f3 11 4c 77 1c 50 10   ...,.P8....Lw.P.
 0030  25 bc 61 f5 00 00                                 %.a...
---------------------------------------------------
+
 Frame 13: 89 bytes on wire (712 bits), 89 bytes captured (712 bits)
-    Encapsulation type: Ethernet (1)
+    WTAP_ENCAP: 1
     Arrival Time: May 13, 2004 06:17:09.864896000 EDT
     [Time shift for this packet: 0.000000000 seconds]
     Epoch Time: 1084443429.864896000 seconds
@@ -1400,6 +1424,8 @@ Internet Protocol Version 4, Src: 145.254.160.237 (145.254.160.237), Dst: 145.25
         [Bad: False]
     Source: 145.254.160.237 (145.254.160.237)
     Destination: 145.253.2.203 (145.253.2.203)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
 User Datagram Protocol, Src Port: pxc-ntfy (3009), Dst Port: domain (53)
     Source port: pxc-ntfy (3009)
     Destination port: domain (53)
@@ -1432,9 +1458,9 @@ Domain Name System (query)
 0030  00 00 00 00 00 00 07 70 61 67 65 61 64 32 11 67   .......pagead2.g
 0040  6f 6f 67 6c 65 73 79 6e 64 69 63 61 74 69 6f 6e   ooglesyndication
 0050  03 63 6f 6d 00 00 01 00 01                        .com.....
---------------------------------------------------
+
 Frame 14: 1434 bytes on wire (11472 bits), 1434 bytes captured (11472 bits)
-    Encapsulation type: Ethernet (1)
+    WTAP_ENCAP: 1
     Arrival Time: May 13, 2004 06:17:09.945011000 EDT
     [Time shift for this packet: 0.000000000 seconds]
     Epoch Time: 1084443429.945011000 seconds
@@ -1477,6 +1503,8 @@ Internet Protocol Version 4, Src: 65.208.228.223 (65.208.228.223), Dst: 145.254.
         [Bad: False]
     Source: 65.208.228.223 (65.208.228.223)
     Destination: 145.254.160.237 (145.254.160.237)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
 Transmission Control Protocol, Src Port: http (80), Dst Port: tip2 (3372), Seq: 290223900, Ack: 951058419, Len: 1380
     Source port: http (80)
     Destination port: tip2 (3372)
@@ -1596,9 +1624,9 @@ Transmission Control Protocol, Src Port: http (80), Dst Port: tip2 (3372), Seq: 
 0570  75 73 74 72 61 6c 69 61 3c 2f 61 3e 0a 3c 61 20   ustralia</a>.<a 
 0580  68 72 65 66 3d 22 66 74 70 3a 2f 2f 66 74 70 2e   href="ftp://ftp.
 0590  6d 69 72 72 6f 72 73 2e 77 69                     mirrors.wi
---------------------------------------------------
+
 Frame 15: 54 bytes on wire (432 bits), 54 bytes captured (432 bits)
-    Encapsulation type: Ethernet (1)
+    WTAP_ENCAP: 1
     Arrival Time: May 13, 2004 06:17:10.125270000 EDT
     [Time shift for this packet: 0.000000000 seconds]
     Epoch Time: 1084443430.125270000 seconds
@@ -1641,6 +1669,8 @@ Internet Protocol Version 4, Src: 145.254.160.237 (145.254.160.237), Dst: 65.208
         [Bad: False]
     Source: 145.254.160.237 (145.254.160.237)
     Destination: 65.208.228.223 (65.208.228.223)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
 Transmission Control Protocol, Src Port: tip2 (3372), Dst Port: http (80), Seq: 951058419, Ack: 290225280, Len: 0
     Source port: tip2 (3372)
     Destination port: http (80)
@@ -1673,9 +1703,9 @@ Transmission Control Protocol, Src Port: tip2 (3372), Dst Port: http (80), Seq: 
 0010  00 28 0f 4a 40 00 80 06 91 ea 91 fe a0 ed 41 d0   .(.J@.........A.
 0020  e4 df 0d 2c 00 50 38 af ff f3 11 4c 7c 80 50 10   ...,.P8....L|.P.
 0030  25 bc 5c 91 00 00                                 %.\...
---------------------------------------------------
+
 Frame 16: 1434 bytes on wire (11472 bits), 1434 bytes captured (11472 bits)
-    Encapsulation type: Ethernet (1)
+    WTAP_ENCAP: 1
     Arrival Time: May 13, 2004 06:17:10.205385000 EDT
     [Time shift for this packet: 0.000000000 seconds]
     Epoch Time: 1084443430.205385000 seconds
@@ -1718,6 +1748,8 @@ Internet Protocol Version 4, Src: 65.208.228.223 (65.208.228.223), Dst: 145.254.
         [Bad: False]
     Source: 65.208.228.223 (65.208.228.223)
     Destination: 145.254.160.237 (145.254.160.237)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
 Transmission Control Protocol, Src Port: http (80), Dst Port: tip2 (3372), Seq: 290225280, Ack: 951058419, Len: 1380
     Source port: http (80)
     Destination port: tip2 (3372)
@@ -1837,9 +1869,9 @@ Transmission Control Protocol, Src Port: http (80), Dst Port: tip2 (3372), Seq: 
 0570  73 2e 77 69 72 65 74 61 70 70 65 64 2e 6e 65 74   s.wiretapped.net
 0580  2f 70 75 62 2f 73 65 63 75 72 69 74 79 2f 70 61   /pub/security/pa
 0590  63 6b 65 74 2d 63 61 70 74 75                     cket-captu
---------------------------------------------------
+
 Frame 17: 188 bytes on wire (1504 bits), 188 bytes captured (1504 bits)
-    Encapsulation type: Ethernet (1)
+    WTAP_ENCAP: 1
     Arrival Time: May 13, 2004 06:17:10.225414000 EDT
     [Time shift for this packet: 0.000000000 seconds]
     Epoch Time: 1084443430.225414000 seconds
@@ -1882,6 +1914,8 @@ Internet Protocol Version 4, Src: 145.253.2.203 (145.253.2.203), Dst: 145.254.16
         [Bad: False]
     Source: 145.253.2.203 (145.253.2.203)
     Destination: 145.254.160.237 (145.254.160.237)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
 User Datagram Protocol, Src Port: domain (53), Dst Port: pxc-ntfy (3009)
     Source port: domain (53)
     Destination port: pxc-ntfy (3009)
@@ -1955,9 +1989,9 @@ Domain Name System (response)
 0090  06 61 6b 61 64 6e 73 03 6e 65 74 00 c0 58 00 01   .akadns.net..X..
 00a0  00 01 00 00 00 7b 00 04 d8 ef 3b 68 c0 58 00 01   .....{....;h.X..
 00b0  00 01 00 00 00 7b 00 04 d8 ef 3b 63               .....{....;c
---------------------------------------------------
+
 Frame 18: 775 bytes on wire (6200 bits), 775 bytes captured (6200 bits)
-    Encapsulation type: Ethernet (1)
+    WTAP_ENCAP: 1
     Arrival Time: May 13, 2004 06:17:10.295515000 EDT
     [Time shift for this packet: 0.000000000 seconds]
     Epoch Time: 1084443430.295515000 seconds
@@ -2000,6 +2034,8 @@ Internet Protocol Version 4, Src: 145.254.160.237 (145.254.160.237), Dst: 216.23
         [Bad: False]
     Source: 145.254.160.237 (145.254.160.237)
     Destination: 216.239.59.99 (216.239.59.99)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
 Transmission Control Protocol, Src Port: 3371 (3371), Dst Port: http (80), Seq: 918691368, Ack: 778785668, Len: 721
     Source port: 3371 (3371)
     Destination port: http (80)
@@ -2021,7 +2057,7 @@ Transmission Control Protocol, Src Port: 3371 (3371), Dst Port: http (80), Seq: 
         .... .... ...0 = Fin: Not set
     Window size value: 8760
     [Calculated window size: 8760]
-    [Window size scaling factor: -1 (unkown)]
+    [Window size scaling factor: -1 (unknown)]
     Checksum: 0x0b64 [validation disabled]
         [Good Checksum: False]
         [Bad Checksum: False]
@@ -2097,9 +2133,9 @@ Hypertext Transfer Protocol
 02e0  74 70 3a 2f 2f 77 77 77 2e 65 74 68 65 72 65 61   tp://www.etherea
 02f0  6c 2e 63 6f 6d 2f 64 6f 77 6e 6c 6f 61 64 2e 68   l.com/download.h
 0300  74 6d 6c 0d 0a 0d 0a                              tml....
---------------------------------------------------
+
 Frame 19: 54 bytes on wire (432 bits), 54 bytes captured (432 bits)
-    Encapsulation type: Ethernet (1)
+    WTAP_ENCAP: 1
     Arrival Time: May 13, 2004 06:17:10.325558000 EDT
     [Time shift for this packet: 0.000000000 seconds]
     Epoch Time: 1084443430.325558000 seconds
@@ -2142,6 +2178,8 @@ Internet Protocol Version 4, Src: 145.254.160.237 (145.254.160.237), Dst: 65.208
         [Bad: False]
     Source: 145.254.160.237 (145.254.160.237)
     Destination: 65.208.228.223 (65.208.228.223)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
 Transmission Control Protocol, Src Port: tip2 (3372), Dst Port: http (80), Seq: 951058419, Ack: 290226660, Len: 0
     Source port: tip2 (3372)
     Destination port: http (80)
@@ -2174,9 +2212,9 @@ Transmission Control Protocol, Src Port: tip2 (3372), Dst Port: http (80), Seq: 
 0010  00 28 0f 4e 40 00 80 06 91 e6 91 fe a0 ed 41 d0   .(.N@.........A.
 0020  e4 df 0d 2c 00 50 38 af ff f3 11 4c 81 e4 50 10   ...,.P8....L..P.
 0030  25 bc 57 2d 00 00                                 %.W-..
---------------------------------------------------
+
 Frame 20: 1434 bytes on wire (11472 bits), 1434 bytes captured (11472 bits)
-    Encapsulation type: Ethernet (1)
+    WTAP_ENCAP: 1
     Arrival Time: May 13, 2004 06:17:10.686076000 EDT
     [Time shift for this packet: 0.000000000 seconds]
     Epoch Time: 1084443430.686076000 seconds
@@ -2219,6 +2257,8 @@ Internet Protocol Version 4, Src: 65.208.228.223 (65.208.228.223), Dst: 145.254.
         [Bad: False]
     Source: 65.208.228.223 (65.208.228.223)
     Destination: 145.254.160.237 (145.254.160.237)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
 Transmission Control Protocol, Src Port: http (80), Dst Port: tip2 (3372), Seq: 290226660, Ack: 951058419, Len: 1380
     Source port: http (80)
     Destination port: tip2 (3372)
@@ -2338,9 +2378,9 @@ Transmission Control Protocol, Src Port: http (80), Dst Port: tip2 (3372), Seq: 
 0570  65 62 69 61 6e 20 47 4e 55 2f 4c 69 6e 75 78 3c   ebian GNU/Linux<
 0580  2f 74 64 3e 0a 20 20 3c 74 64 20 76 61 6c 69 67   /td>.  <td valig
 0590  6e 3d 22 74 6f 70 22 3e 0a 20                     n="top">. 
---------------------------------------------------
+
 Frame 21: 1434 bytes on wire (11472 bits), 1434 bytes captured (11472 bits)
-    Encapsulation type: Ethernet (1)
+    WTAP_ENCAP: 1
     Arrival Time: May 13, 2004 06:17:10.806249000 EDT
     [Time shift for this packet: 0.000000000 seconds]
     Epoch Time: 1084443430.806249000 seconds
@@ -2383,6 +2423,8 @@ Internet Protocol Version 4, Src: 65.208.228.223 (65.208.228.223), Dst: 145.254.
         [Bad: False]
     Source: 65.208.228.223 (65.208.228.223)
     Destination: 145.254.160.237 (145.254.160.237)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
 Transmission Control Protocol, Src Port: http (80), Dst Port: tip2 (3372), Seq: 290228040, Ack: 951058419, Len: 1380
     Source port: http (80)
     Destination port: tip2 (3372)
@@ -2502,9 +2544,9 @@ Transmission Control Protocol, Src Port: http (80), Dst Port: tip2 (3372), Seq: 
 0570  70 70 64 2f 68 70 75 78 2f 47 74 6b 2f 41 70 70   ppd/hpux/Gtk/App
 0580  6c 69 63 61 74 69 6f 6e 73 2f 22 3e 53 6f 75 74   lications/">Sout
 0590  68 26 6e 62 73 70 3b 41 66 72                     h&nbsp;Afr
---------------------------------------------------
+
 Frame 22: 54 bytes on wire (432 bits), 54 bytes captured (432 bits)
-    Encapsulation type: Ethernet (1)
+    WTAP_ENCAP: 1
     Arrival Time: May 13, 2004 06:17:10.806249000 EDT
     [Time shift for this packet: 0.000000000 seconds]
     Epoch Time: 1084443430.806249000 seconds
@@ -2547,6 +2589,8 @@ Internet Protocol Version 4, Src: 145.254.160.237 (145.254.160.237), Dst: 65.208
         [Bad: False]
     Source: 145.254.160.237 (145.254.160.237)
     Destination: 65.208.228.223 (65.208.228.223)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
 Transmission Control Protocol, Src Port: tip2 (3372), Dst Port: http (80), Seq: 951058419, Ack: 290229420, Len: 0
     Source port: tip2 (3372)
     Destination port: http (80)
@@ -2578,9 +2622,9 @@ Transmission Control Protocol, Src Port: tip2 (3372), Dst Port: http (80), Seq: 
 0010  00 28 0f 4f 40 00 80 06 91 e5 91 fe a0 ed 41 d0   .(.O@.........A.
 0020  e4 df 0d 2c 00 50 38 af ff f3 11 4c 8c ac 50 10   ...,.P8....L..P.
 0030  25 bc 4c 65 00 00                                 %.Le..
---------------------------------------------------
+
 Frame 23: 1434 bytes on wire (11472 bits), 1434 bytes captured (11472 bits)
-    Encapsulation type: Ethernet (1)
+    WTAP_ENCAP: 1
     Arrival Time: May 13, 2004 06:17:10.946451000 EDT
     [Time shift for this packet: 0.000000000 seconds]
     Epoch Time: 1084443430.946451000 seconds
@@ -2623,6 +2667,8 @@ Internet Protocol Version 4, Src: 65.208.228.223 (65.208.228.223), Dst: 145.254.
         [Bad: False]
     Source: 65.208.228.223 (65.208.228.223)
     Destination: 145.254.160.237 (145.254.160.237)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
 Transmission Control Protocol, Src Port: http (80), Dst Port: tip2 (3372), Seq: 290229420, Ack: 951058419, Len: 1380
     Source port: http (80)
     Destination port: tip2 (3372)
@@ -2742,9 +2788,9 @@ Transmission Control Protocol, Src Port: http (80), Dst Port: tip2 (3372), Seq: 
 0570  66 74 70 3a 2f 2f 66 74 70 2e 6e 65 74 62 73 64   ftp://ftp.netbsd
 0580  2e 6f 72 67 2f 70 75 62 2f 4e 65 74 42 53 44 2f   .org/pub/NetBSD/
 0590  70 61 63 6b 61 67 65 73 2f 70                     packages/p
---------------------------------------------------
+
 Frame 24: 54 bytes on wire (432 bits), 54 bytes captured (432 bits)
-    Encapsulation type: Ethernet (1)
+    WTAP_ENCAP: 1
     Arrival Time: May 13, 2004 06:17:10.956465000 EDT
     [Time shift for this packet: 0.000000000 seconds]
     Epoch Time: 1084443430.956465000 seconds
@@ -2787,6 +2833,8 @@ Internet Protocol Version 4, Src: 216.239.59.99 (216.239.59.99), Dst: 145.254.16
         [Bad: False]
     Source: 216.239.59.99 (216.239.59.99)
     Destination: 145.254.160.237 (145.254.160.237)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
 Transmission Control Protocol, Src Port: http (80), Dst Port: 3371 (3371), Seq: 778785668, Ack: 918692089, Len: 0
     Source port: http (80)
     Destination port: 3371 (3371)
@@ -2807,7 +2855,7 @@ Transmission Control Protocol, Src Port: http (80), Dst Port: 3371 (3371), Seq: 
         .... .... ...0 = Fin: Not set
     Window size value: 31460
     [Calculated window size: 31460]
-    [Window size scaling factor: -1 (unkown)]
+    [Window size scaling factor: -1 (unknown)]
     Checksum: 0x068c [validation disabled]
         [Good Checksum: False]
         [Bad Checksum: False]
@@ -2819,9 +2867,9 @@ Transmission Control Protocol, Src Port: http (80), Dst Port: 3371 (3371), Seq: 
 0010  00 28 85 38 00 00 37 06 b7 49 d8 ef 3b 63 91 fe   .(.8..7..I..;c..
 0020  a0 ed 00 50 0d 2b 2e 6b 53 84 36 c2 20 f9 50 10   ...P.+.kS.6. .P.
 0030  7a e4 06 8c 00 00                                 z.....
---------------------------------------------------
+
 Frame 25: 54 bytes on wire (432 bits), 54 bytes captured (432 bits)
-    Encapsulation type: Ethernet (1)
+    WTAP_ENCAP: 1
     Arrival Time: May 13, 2004 06:17:11.126710000 EDT
     [Time shift for this packet: 0.000000000 seconds]
     Epoch Time: 1084443431.126710000 seconds
@@ -2864,6 +2912,8 @@ Internet Protocol Version 4, Src: 145.254.160.237 (145.254.160.237), Dst: 65.208
         [Bad: False]
     Source: 145.254.160.237 (145.254.160.237)
     Destination: 65.208.228.223 (65.208.228.223)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
 Transmission Control Protocol, Src Port: tip2 (3372), Dst Port: http (80), Seq: 951058419, Ack: 290230800, Len: 0
     Source port: tip2 (3372)
     Destination port: http (80)
@@ -2896,9 +2946,9 @@ Transmission Control Protocol, Src Port: tip2 (3372), Dst Port: http (80), Seq: 
 0010  00 28 0f 50 40 00 80 06 91 e4 91 fe a0 ed 41 d0   .(.P@.........A.
 0020  e4 df 0d 2c 00 50 38 af ff f3 11 4c 92 10 50 10   ...,.P8....L..P.
 0030  25 bc 47 01 00 00                                 %.G...
---------------------------------------------------
+
 Frame 26: 1484 bytes on wire (11872 bits), 1484 bytes captured (11872 bits)
-    Encapsulation type: Ethernet (1)
+    WTAP_ENCAP: 1
     Arrival Time: May 13, 2004 06:17:11.226854000 EDT
     [Time shift for this packet: 0.000000000 seconds]
     Epoch Time: 1084443431.226854000 seconds
@@ -2941,6 +2991,8 @@ Internet Protocol Version 4, Src: 216.239.59.99 (216.239.59.99), Dst: 145.254.16
         [Bad: False]
     Source: 216.239.59.99 (216.239.59.99)
     Destination: 145.254.160.237 (145.254.160.237)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
 Transmission Control Protocol, Src Port: http (80), Dst Port: 3371 (3371), Seq: 778785668, Ack: 918692089, Len: 1430
     Source port: http (80)
     Destination port: 3371 (3371)
@@ -2962,7 +3014,7 @@ Transmission Control Protocol, Src Port: http (80), Dst Port: 3371 (3371), Seq: 
         .... .... ...0 = Fin: Not set
     Window size value: 31460
     [Calculated window size: 31460]
-    [Window size scaling factor: -1 (unkown)]
+    [Window size scaling factor: -1 (unknown)]
     Checksum: 0xacd9 [validation disabled]
         [Good Checksum: False]
         [Bad Checksum: False]
@@ -3063,9 +3115,9 @@ Transmission Control Protocol, Src Port: http (80), Dst Port: 3371 (3371), Seq: 
 05a0  99 6d 03 b2 4f 50 f0 6f b0 46 27 4c 81 1f 0a ee   .m..OP.o.F'L....
 05b0  f6 ff 04 6d d0 8b 28 3a 6d 8c 30 e3 68 80 95 41   ...m..(:m.0.h..A
 05c0  5d 9e 65 42 6a b4 ee 10 1a 9a f0 de               ].eBj.......
---------------------------------------------------
+
 Frame 27: 214 bytes on wire (1712 bits), 214 bytes captured (1712 bits)
-    Encapsulation type: Ethernet (1)
+    WTAP_ENCAP: 1
     Arrival Time: May 13, 2004 06:17:11.266912000 EDT
     [Time shift for this packet: 0.000000000 seconds]
     Epoch Time: 1084443431.266912000 seconds
@@ -3108,6 +3160,8 @@ Internet Protocol Version 4, Src: 216.239.59.99 (216.239.59.99), Dst: 145.254.16
         [Bad: False]
     Source: 216.239.59.99 (216.239.59.99)
     Destination: 145.254.160.237 (145.254.160.237)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
 Transmission Control Protocol, Src Port: http (80), Dst Port: 3371 (3371), Seq: 778787098, Ack: 918692089, Len: 160
     Source port: http (80)
     Destination port: 3371 (3371)
@@ -3129,7 +3183,7 @@ Transmission Control Protocol, Src Port: http (80), Dst Port: 3371 (3371), Seq: 
         .... .... ...0 = Fin: Not set
     Window size value: 31460
     [Calculated window size: 31460]
-    [Window size scaling factor: -1 (unkown)]
+    [Window size scaling factor: -1 (unknown)]
     Checksum: 0xde29 [validation disabled]
         [Good Checksum: False]
         [Bad Checksum: False]
@@ -3141,7 +3195,6 @@ Transmission Control Protocol, Src Port: http (80), Dst Port: 3371 (3371), Seq: 
     [Frame: 27, payload: 1430-1589 (160 bytes)]
     [Segment count: 2]
     [Reassembled TCP length: 1590]
-    [Reassembled TCP Data: 485454502f312e3120323030204f4b0d0a5033503a20706f...]
 Hypertext Transfer Protocol
     HTTP/1.1 200 OK\r\n
         [Expert Info (Chat/Sequence): HTTP/1.1 200 OK\r\n]
@@ -3167,6 +3220,7 @@ Line-based text data: text/html
     [truncated] function ss(w,id) {window.status = w;return true;}function cs(){window.status='';}function ca(a){ top.location.href=document.getElementById(a).href;}function ga(o,e) {if (document.getElementById) {a=o.id.substring(1);p = "";r =
 
 Frame (214 bytes):
+
 0000  00 00 01 00 00 00 fe ff 20 00 01 00 08 00 45 10   ........ .....E.
 0010  00 c8 85 cf 00 00 37 06 b6 12 d8 ef 3b 63 91 fe   ......7.....;c..
 0020  a0 ed 00 50 0d 2b 2e 6b 59 1a 36 c2 20 f9 50 18   ...P.+.kY.6. .P.
@@ -3181,7 +3235,9 @@ Frame (214 bytes):
 00b0  4f cf ba d5 f7 89 42 c1 14 0d 8b 1b 67 91 41 fc   O.....B.....g.A.
 00c0  78 16 17 3b e6 4d d1 bc 36 9a 2f c2 bf 01 7b dc   x..;.M..6./...{.
 00d0  03 39 18 0e 00 00                                 .9....
+
 Reassembled TCP (1590 bytes):
+
 0000  48 54 54 50 2f 31 2e 31 20 32 30 30 20 4f 4b 0d   HTTP/1.1 200 OK.
 0010  0a 50 33 50 3a 20 70 6f 6c 69 63 79 72 65 66 3d   .P3P: policyref=
 0020  22 68 74 74 70 3a 2f 2f 77 77 77 2e 67 6f 6f 67   "http://www.goog
@@ -3282,7 +3338,9 @@ Reassembled TCP (1590 bytes):
 0610  4f cf ba d5 f7 89 42 c1 14 0d 8b 1b 67 91 41 fc   O.....B.....g.A.
 0620  78 16 17 3b e6 4d d1 bc 36 9a 2f c2 bf 01 7b dc   x..;.M..6./...{.
 0630  03 39 18 0e 00 00                                 .9....
+
 Uncompressed entity body (3608 bytes):
+
 0000  3c 68 74 6d 6c 3e 3c 68 65 61 64 3e 3c 73 74 79   <html><head><sty
 0010  6c 65 3e 3c 21 2d 2d 0a 2e 63 68 7b 63 75 72 73   le><!--..ch{curs
 0020  6f 72 3a 70 6f 69 6e 74 65 72 3b 63 75 72 73 6f   or:pointer;curso
@@ -3509,9 +3567,9 @@ Uncompressed entity body (3608 bytes):
 0df0  3c 2f 74 61 62 6c 65 3e 3c 2f 74 64 3e 3c 2f 74   </table></td></t
 0e00  72 3e 3c 2f 74 61 62 6c 65 3e 3c 2f 62 6f 64 79   r></table></body
 0e10  3e 3c 2f 68 74 6d 6c 3e                           ></html>
---------------------------------------------------
+
 Frame 28: 54 bytes on wire (432 bits), 54 bytes captured (432 bits)
-    Encapsulation type: Ethernet (1)
+    WTAP_ENCAP: 1
     Arrival Time: May 13, 2004 06:17:11.266912000 EDT
     [Time shift for this packet: 0.000000000 seconds]
     Epoch Time: 1084443431.266912000 seconds
@@ -3554,6 +3612,8 @@ Internet Protocol Version 4, Src: 145.254.160.237 (145.254.160.237), Dst: 216.23
         [Bad: False]
     Source: 145.254.160.237 (145.254.160.237)
     Destination: 216.239.59.99 (216.239.59.99)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
 Transmission Control Protocol, Src Port: 3371 (3371), Dst Port: http (80), Seq: 918692089, Ack: 778787258, Len: 0
     Source port: 3371 (3371)
     Destination port: http (80)
@@ -3574,7 +3634,7 @@ Transmission Control Protocol, Src Port: 3371 (3371), Dst Port: http (80), Seq: 
         .... .... ...0 = Fin: Not set
     Window size value: 8760
     [Calculated window size: 8760]
-    [Window size scaling factor: -1 (unkown)]
+    [Window size scaling factor: -1 (unknown)]
     Checksum: 0x5902 [validation disabled]
         [Good Checksum: False]
         [Bad Checksum: False]
@@ -3585,9 +3645,9 @@ Transmission Control Protocol, Src Port: 3371 (3371), Dst Port: http (80), Seq: 
 0010  00 28 0f 53 40 00 80 06 a4 3e 91 fe a0 ed d8 ef   .(.S@....>......
 0020  3b 63 0d 2b 00 50 36 c2 20 f9 2e 6b 59 ba 50 10   ;c.+.P6. ..kY.P.
 0030  22 38 59 02 00 00                                 "8Y...
---------------------------------------------------
+
 Frame 29: 1434 bytes on wire (11472 bits), 1434 bytes captured (11472 bits)
-    Encapsulation type: Ethernet (1)
+    WTAP_ENCAP: 1
     Arrival Time: May 13, 2004 06:17:11.417128000 EDT
     [Time shift for this packet: 0.000000000 seconds]
     Epoch Time: 1084443431.417128000 seconds
@@ -3630,6 +3690,8 @@ Internet Protocol Version 4, Src: 65.208.228.223 (65.208.228.223), Dst: 145.254.
         [Bad: False]
     Source: 65.208.228.223 (65.208.228.223)
     Destination: 145.254.160.237 (145.254.160.237)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
 Transmission Control Protocol, Src Port: http (80), Dst Port: tip2 (3372), Seq: 290230800, Ack: 951058419, Len: 1380
     Source port: http (80)
     Destination port: tip2 (3372)
@@ -3749,9 +3811,9 @@ Transmission Control Protocol, Src Port: http (80), Dst Port: tip2 (3372), Seq: 
 0570  22 3e 4f 70 65 6e 20 55 4e 49 58 20 38 3c 2f 61   ">Open UNIX 8</a
 0580  3e 0a 3c 2f 74 64 3e 0a 3c 2f 74 72 3e 0a 3c 74   >.</td>.</tr>.<t
 0590  72 20 63 6c 61 73 73 3d 22 65                     r class="e
---------------------------------------------------
+
 Frame 30: 54 bytes on wire (432 bits), 54 bytes captured (432 bits)
-    Encapsulation type: Ethernet (1)
+    WTAP_ENCAP: 1
     Arrival Time: May 13, 2004 06:17:11.527286000 EDT
     [Time shift for this packet: 0.000000000 seconds]
     Epoch Time: 1084443431.527286000 seconds
@@ -3794,6 +3856,8 @@ Internet Protocol Version 4, Src: 145.254.160.237 (145.254.160.237), Dst: 65.208
         [Bad: False]
     Source: 145.254.160.237 (145.254.160.237)
     Destination: 65.208.228.223 (65.208.228.223)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
 Transmission Control Protocol, Src Port: tip2 (3372), Dst Port: http (80), Seq: 951058419, Ack: 290232180, Len: 0
     Source port: tip2 (3372)
     Destination port: http (80)
@@ -3826,9 +3890,9 @@ Transmission Control Protocol, Src Port: tip2 (3372), Dst Port: http (80), Seq: 
 0010  00 28 0f 56 40 00 80 06 91 de 91 fe a0 ed 41 d0   .(.V@.........A.
 0020  e4 df 0d 2c 00 50 38 af ff f3 11 4c 97 74 50 10   ...,.P8....L.tP.
 0030  25 bc 41 9d 00 00                                 %.A...
---------------------------------------------------
+
 Frame 31: 1434 bytes on wire (11472 bits), 1434 bytes captured (11472 bits)
-    Encapsulation type: Ethernet (1)
+    WTAP_ENCAP: 1
     Arrival Time: May 13, 2004 06:17:11.537300000 EDT
     [Time shift for this packet: 0.000000000 seconds]
     Epoch Time: 1084443431.537300000 seconds
@@ -3871,6 +3935,8 @@ Internet Protocol Version 4, Src: 65.208.228.223 (65.208.228.223), Dst: 145.254.
         [Bad: False]
     Source: 65.208.228.223 (65.208.228.223)
     Destination: 145.254.160.237 (145.254.160.237)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
 Transmission Control Protocol, Src Port: http (80), Dst Port: tip2 (3372), Seq: 290232180, Ack: 951058419, Len: 1380
     Source port: http (80)
     Destination port: tip2 (3372)
@@ -3990,9 +4056,9 @@ Transmission Control Protocol, Src Port: http (80), Dst Port: tip2 (3372), Seq: 
 0570  22 3e 53 75 53 45 20 46 54 50 20 73 69 74 65 3c   ">SuSE FTP site<
 0580  2f 61 3e 2e 0a 20 20 20 20 3c 61 20 68 72 65 66   /a>..    <a href
 0590  3d 22 68 74 74 70 3a 2f 2f 77                     ="http://w
---------------------------------------------------
+
 Frame 32: 1434 bytes on wire (11472 bits), 1434 bytes captured (11472 bits)
-    Encapsulation type: Ethernet (1)
+    WTAP_ENCAP: 1
     Arrival Time: May 13, 2004 06:17:11.667488000 EDT
     [Time shift for this packet: 0.000000000 seconds]
     Epoch Time: 1084443431.667488000 seconds
@@ -4035,6 +4101,8 @@ Internet Protocol Version 4, Src: 65.208.228.223 (65.208.228.223), Dst: 145.254.
         [Bad: False]
     Source: 65.208.228.223 (65.208.228.223)
     Destination: 145.254.160.237 (145.254.160.237)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
 Transmission Control Protocol, Src Port: http (80), Dst Port: tip2 (3372), Seq: 290233560, Ack: 951058419, Len: 1380
     Source port: http (80)
     Destination port: tip2 (3372)
@@ -4154,9 +4222,9 @@ Transmission Control Protocol, Src Port: http (80), Dst Port: tip2 (3372), Seq: 
 0570  20 68 72 65 66 3d 22 2e 2e 2f 73 61 6d 70 6c 65    href="../sample
 0580  2f 22 3e 73 61 6d 70 6c 65 20 63 61 70 74 75 72   /">sample captur
 0590  65 73 3c 2f 61 3e 20 70 61 67                     es</a> pag
---------------------------------------------------
+
 Frame 33: 54 bytes on wire (432 bits), 54 bytes captured (432 bits)
-    Encapsulation type: Ethernet (1)
+    WTAP_ENCAP: 1
     Arrival Time: May 13, 2004 06:17:11.667488000 EDT
     [Time shift for this packet: 0.000000000 seconds]
     Epoch Time: 1084443431.667488000 seconds
@@ -4199,6 +4267,8 @@ Internet Protocol Version 4, Src: 145.254.160.237 (145.254.160.237), Dst: 65.208
         [Bad: False]
     Source: 145.254.160.237 (145.254.160.237)
     Destination: 65.208.228.223 (65.208.228.223)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
 Transmission Control Protocol, Src Port: tip2 (3372), Dst Port: http (80), Seq: 951058419, Ack: 290234940, Len: 0
     Source port: tip2 (3372)
     Destination port: http (80)
@@ -4230,9 +4300,9 @@ Transmission Control Protocol, Src Port: tip2 (3372), Dst Port: http (80), Seq: 
 0010  00 28 0f 57 40 00 80 06 91 dd 91 fe a0 ed 41 d0   .(.W@.........A.
 0020  e4 df 0d 2c 00 50 38 af ff f3 11 4c a2 3c 50 10   ...,.P8....L.<P.
 0030  25 bc 36 d5 00 00                                 %.6...
---------------------------------------------------
+
 Frame 34: 1434 bytes on wire (11472 bits), 1434 bytes captured (11472 bits)
-    Encapsulation type: Ethernet (1)
+    WTAP_ENCAP: 1
     Arrival Time: May 13, 2004 06:17:11.807689000 EDT
     [Time shift for this packet: 0.000000000 seconds]
     Epoch Time: 1084443431.807689000 seconds
@@ -4275,6 +4345,8 @@ Internet Protocol Version 4, Src: 65.208.228.223 (65.208.228.223), Dst: 145.254.
         [Bad: False]
     Source: 65.208.228.223 (65.208.228.223)
     Destination: 145.254.160.237 (145.254.160.237)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
 Transmission Control Protocol, Src Port: http (80), Dst Port: tip2 (3372), Seq: 290234940, Ack: 951058419, Len: 1380
     Source port: http (80)
     Destination port: tip2 (3372)
@@ -4394,9 +4466,9 @@ Transmission Control Protocol, Src Port: http (80), Dst Port: tip2 (3372), Seq: 
 0570  2f 70 3e 0a 3c 2f 64 69 76 3e 0a 3c 64 69 76 20   /p>.</div>.<div 
 0580  63 6c 61 73 73 3d 22 66 6f 6f 74 65 72 22 3e 0a   class="footer">.
 0590  20 20 50 6c 65 61 73 65 20 73                       Please s
---------------------------------------------------
+
 Frame 35: 54 bytes on wire (432 bits), 54 bytes captured (432 bits)
-    Encapsulation type: Ethernet (1)
+    WTAP_ENCAP: 1
     Arrival Time: May 13, 2004 06:17:11.807689000 EDT
     [Time shift for this packet: 0.000000000 seconds]
     Epoch Time: 1084443431.807689000 seconds
@@ -4439,6 +4511,8 @@ Internet Protocol Version 4, Src: 145.254.160.237 (145.254.160.237), Dst: 65.208
         [Bad: False]
     Source: 145.254.160.237 (145.254.160.237)
     Destination: 65.208.228.223 (65.208.228.223)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
 Transmission Control Protocol, Src Port: tip2 (3372), Dst Port: http (80), Seq: 951058419, Ack: 290236320, Len: 0
     Source port: tip2 (3372)
     Destination port: http (80)
@@ -4470,9 +4544,9 @@ Transmission Control Protocol, Src Port: tip2 (3372), Dst Port: http (80), Seq: 
 0010  00 28 0f 58 40 00 80 06 91 dc 91 fe a0 ed 41 d0   .(.X@.........A.
 0020  e4 df 0d 2c 00 50 38 af ff f3 11 4c a7 a0 50 10   ...,.P8....L..P.
 0030  25 bc 31 71 00 00                                 %.1q..
---------------------------------------------------
+
 Frame 36: 1484 bytes on wire (11872 bits), 1484 bytes captured (11872 bits)
-    Encapsulation type: Ethernet (1)
+    WTAP_ENCAP: 1
     Arrival Time: May 13, 2004 06:17:12.088092000 EDT
     [Time shift for this packet: 0.000000000 seconds]
     Epoch Time: 1084443432.088092000 seconds
@@ -4515,6 +4589,8 @@ Internet Protocol Version 4, Src: 216.239.59.99 (216.239.59.99), Dst: 145.254.16
         [Bad: False]
     Source: 216.239.59.99 (216.239.59.99)
     Destination: 145.254.160.237 (145.254.160.237)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
 Transmission Control Protocol, Src Port: http (80), Dst Port: 3371 (3371), Seq: 778785668, Ack: 918692089, Len: 1430
     Source port: http (80)
     Destination port: 3371 (3371)
@@ -4536,7 +4612,7 @@ Transmission Control Protocol, Src Port: http (80), Dst Port: 3371 (3371), Seq: 
         .... .... ...0 = Fin: Not set
     Window size value: 31460
     [Calculated window size: 31460]
-    [Window size scaling factor: -1 (unkown)]
+    [Window size scaling factor: -1 (unknown)]
     Checksum: 0xacd9 [validation disabled]
         [Good Checksum: False]
         [Bad Checksum: False]
@@ -4645,9 +4721,9 @@ Transmission Control Protocol, Src Port: http (80), Dst Port: 3371 (3371), Seq: 
 05a0  99 6d 03 b2 4f 50 f0 6f b0 46 27 4c 81 1f 0a ee   .m..OP.o.F'L....
 05b0  f6 ff 04 6d d0 8b 28 3a 6d 8c 30 e3 68 80 95 41   ...m..(:m.0.h..A
 05c0  5d 9e 65 42 6a b4 ee 10 1a 9a f0 de               ].eBj.......
---------------------------------------------------
+
 Frame 37: 54 bytes on wire (432 bits), 54 bytes captured (432 bits)
-    Encapsulation type: Ethernet (1)
+    WTAP_ENCAP: 1
     Arrival Time: May 13, 2004 06:17:12.088092000 EDT
     [Time shift for this packet: 0.000000000 seconds]
     Epoch Time: 1084443432.088092000 seconds
@@ -4690,6 +4766,8 @@ Internet Protocol Version 4, Src: 145.254.160.237 (145.254.160.237), Dst: 216.23
         [Bad: False]
     Source: 145.254.160.237 (145.254.160.237)
     Destination: 216.239.59.99 (216.239.59.99)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
 Transmission Control Protocol, Src Port: 3371 (3371), Dst Port: http (80), Seq: 918692089, Ack: 778787258, Len: 0
     Source port: 3371 (3371)
     Destination port: http (80)
@@ -4710,7 +4788,7 @@ Transmission Control Protocol, Src Port: 3371 (3371), Dst Port: http (80), Seq: 
         .... .... ...0 = Fin: Not set
     Window size value: 8760
     [Calculated window size: 8760]
-    [Window size scaling factor: -1 (unkown)]
+    [Window size scaling factor: -1 (unknown)]
     Checksum: 0x5902 [validation disabled]
         [Good Checksum: False]
         [Bad Checksum: False]
@@ -4728,9 +4806,9 @@ Transmission Control Protocol, Src Port: 3371 (3371), Dst Port: http (80), Seq: 
 0010  00 28 0f 59 40 00 80 06 a4 38 91 fe a0 ed d8 ef   .(.Y@....8......
 0020  3b 63 0d 2b 00 50 36 c2 20 f9 2e 6b 59 ba 50 10   ;c.+.P6. ..kY.P.
 0030  22 38 59 02 00 00                                 "8Y...
---------------------------------------------------
+
 Frame 38: 478 bytes on wire (3824 bits), 478 bytes captured (3824 bits)
-    Encapsulation type: Ethernet (1)
+    WTAP_ENCAP: 1
     Arrival Time: May 13, 2004 06:17:12.158193000 EDT
     [Time shift for this packet: 0.000000000 seconds]
     Epoch Time: 1084443432.158193000 seconds
@@ -4773,6 +4851,8 @@ Internet Protocol Version 4, Src: 65.208.228.223 (65.208.228.223), Dst: 145.254.
         [Bad: False]
     Source: 65.208.228.223 (65.208.228.223)
     Destination: 145.254.160.237 (145.254.160.237)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
 Transmission Control Protocol, Src Port: http (80), Dst Port: tip2 (3372), Seq: 290236320, Ack: 951058419, Len: 424
     Source port: http (80)
     Destination port: tip2 (3372)
@@ -4818,7 +4898,6 @@ Transmission Control Protocol, Src Port: http (80), Dst Port: tip2 (3372), Seq: 
     [Frame: 38, payload: 17940-18363 (424 bytes)]
     [Segment count: 14]
     [Reassembled TCP length: 18364]
-    [Reassembled TCP Data: 485454502f312e3120323030204f4b0d0a446174653a2054...]
 Hypertext Transfer Protocol
     HTTP/1.1 200 OK\r\n
         [Expert Info (Chat/Sequence): HTTP/1.1 200 OK\r\n]
@@ -5997,6 +6076,7 @@ eXtensible Markup Language
                                                                                                                                                                 </html>
 
 Frame (478 bytes):
+
 0000  00 00 01 00 00 00 fe ff 20 00 01 00 08 00 45 00   ........ .....E.
 0010  01 d0 c0 ac 40 00 2f 06 2f e0 41 d0 e4 df 91 fe   ....@././.A.....
 0020  a0 ed 00 50 0d 2c 11 4c a7 a0 38 af ff f3 50 18   ...P.,.L..8...P.
@@ -6027,7 +6107,9 @@ Frame (478 bytes):
 01b0  64 3a 20 54 75 65 2c 20 41 70 72 69 6c 20 32 30   d: Tue, April 20
 01c0  20 32 30 30 34 2e 0a 3c 2f 64 69 76 3e 0a 3c 2f    2004..</div>.</
 01d0  62 6f 64 79 3e 0a 3c 2f 68 74 6d 6c 3e 0a         body>.</html>.
+
 Reassembled TCP (18364 bytes):
+
 0000  48 54 54 50 2f 31 2e 31 20 32 30 30 20 4f 4b 0d   HTTP/1.1 200 OK.
 0010  0a 44 61 74 65 3a 20 54 68 75 2c 20 31 33 20 4d   .Date: Thu, 13 M
 0020  61 79 20 32 30 30 34 20 31 30 3a 31 37 3a 31 32   ay 2004 10:17:12
@@ -7176,9 +7258,9 @@ Reassembled TCP (18364 bytes):
 4790  20 54 75 65 2c 20 41 70 72 69 6c 20 32 30 20 32    Tue, April 20 2
 47a0  30 30 34 2e 0a 3c 2f 64 69 76 3e 0a 3c 2f 62 6f   004..</div>.</bo
 47b0  64 79 3e 0a 3c 2f 68 74 6d 6c 3e 0a               dy>.</html>.
---------------------------------------------------
+
 Frame 39: 54 bytes on wire (432 bits), 54 bytes captured (432 bits)
-    Encapsulation type: Ethernet (1)
+    WTAP_ENCAP: 1
     Arrival Time: May 13, 2004 06:17:12.328438000 EDT
     [Time shift for this packet: 0.000000000 seconds]
     Epoch Time: 1084443432.328438000 seconds
@@ -7221,6 +7303,8 @@ Internet Protocol Version 4, Src: 145.254.160.237 (145.254.160.237), Dst: 65.208
         [Bad: False]
     Source: 145.254.160.237 (145.254.160.237)
     Destination: 65.208.228.223 (65.208.228.223)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
 Transmission Control Protocol, Src Port: tip2 (3372), Dst Port: http (80), Seq: 951058419, Ack: 290236744, Len: 0
     Source port: tip2 (3372)
     Destination port: http (80)
@@ -7253,9 +7337,9 @@ Transmission Control Protocol, Src Port: tip2 (3372), Dst Port: http (80), Seq: 
 0010  00 28 0f 5c 40 00 80 06 91 d8 91 fe a0 ed 41 d0   .(.\@.........A.
 0020  e4 df 0d 2c 00 50 38 af ff f3 11 4c a9 48 50 10   ...,.P8....L.HP.
 0030  24 14 31 71 00 00                                 $.1q..
---------------------------------------------------
+
 Frame 40: 54 bytes on wire (432 bits), 54 bytes captured (432 bits)
-    Encapsulation type: Ethernet (1)
+    WTAP_ENCAP: 1
     Arrival Time: May 13, 2004 06:17:25.216971000 EDT
     [Time shift for this packet: 0.000000000 seconds]
     Epoch Time: 1084443445.216971000 seconds
@@ -7298,6 +7382,8 @@ Internet Protocol Version 4, Src: 65.208.228.223 (65.208.228.223), Dst: 145.254.
         [Bad: False]
     Source: 65.208.228.223 (65.208.228.223)
     Destination: 145.254.160.237 (145.254.160.237)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
 Transmission Control Protocol, Src Port: http (80), Dst Port: tip2 (3372), Seq: 290236744, Ack: 951058419, Len: 0
     Source port: http (80)
     Destination port: tip2 (3372)
@@ -7331,9 +7417,9 @@ Transmission Control Protocol, Src Port: http (80), Dst Port: tip2 (3372), Seq: 
 0010  00 28 c0 ad 40 00 2f 06 31 87 41 d0 e4 df 91 fe   .(..@./.1.A.....
 0020  a0 ed 00 50 0d 2c 11 4c a9 48 38 af ff f3 50 11   ...P.,.L.H8...P.
 0030  19 20 3c 64 00 00                                 . <d..
---------------------------------------------------
+
 Frame 41: 54 bytes on wire (432 bits), 54 bytes captured (432 bits)
-    Encapsulation type: Ethernet (1)
+    WTAP_ENCAP: 1
     Arrival Time: May 13, 2004 06:17:25.216971000 EDT
     [Time shift for this packet: 0.000000000 seconds]
     Epoch Time: 1084443445.216971000 seconds
@@ -7376,6 +7462,8 @@ Internet Protocol Version 4, Src: 145.254.160.237 (145.254.160.237), Dst: 65.208
         [Bad: False]
     Source: 145.254.160.237 (145.254.160.237)
     Destination: 65.208.228.223 (65.208.228.223)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
 Transmission Control Protocol, Src Port: tip2 (3372), Dst Port: http (80), Seq: 951058419, Ack: 290236745, Len: 0
     Source port: tip2 (3372)
     Destination port: http (80)
@@ -7407,9 +7495,9 @@ Transmission Control Protocol, Src Port: tip2 (3372), Dst Port: http (80), Seq: 
 0010  00 28 0f 5f 40 00 80 06 91 d5 91 fe a0 ed 41 d0   .(._@.........A.
 0020  e4 df 0d 2c 00 50 38 af ff f3 11 4c a9 49 50 10   ...,.P8....L.IP.
 0030  24 14 31 70 00 00                                 $.1p..
---------------------------------------------------
+
 Frame 42: 54 bytes on wire (432 bits), 54 bytes captured (432 bits)
-    Encapsulation type: Ethernet (1)
+    WTAP_ENCAP: 1
     Arrival Time: May 13, 2004 06:17:37.374452000 EDT
     [Time shift for this packet: 0.000000000 seconds]
     Epoch Time: 1084443457.374452000 seconds
@@ -7452,6 +7540,8 @@ Internet Protocol Version 4, Src: 145.254.160.237 (145.254.160.237), Dst: 65.208
         [Bad: False]
     Source: 145.254.160.237 (145.254.160.237)
     Destination: 65.208.228.223 (65.208.228.223)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
 Transmission Control Protocol, Src Port: tip2 (3372), Dst Port: http (80), Seq: 951058419, Ack: 290236745, Len: 0
     Source port: tip2 (3372)
     Destination port: http (80)
@@ -7485,9 +7575,9 @@ Transmission Control Protocol, Src Port: tip2 (3372), Dst Port: http (80), Seq: 
 0010  00 28 0f 62 40 00 80 06 91 d2 91 fe a0 ed 41 d0   .(.b@.........A.
 0020  e4 df 0d 2c 00 50 38 af ff f3 11 4c a9 49 50 11   ...,.P8....L.IP.
 0030  24 14 31 6f 00 00                                 $.1o..
---------------------------------------------------
+
 Frame 43: 54 bytes on wire (432 bits), 54 bytes captured (432 bits)
-    Encapsulation type: Ethernet (1)
+    WTAP_ENCAP: 1
     Arrival Time: May 13, 2004 06:17:37.704928000 EDT
     [Time shift for this packet: 0.000000000 seconds]
     Epoch Time: 1084443457.704928000 seconds
@@ -7530,6 +7620,8 @@ Internet Protocol Version 4, Src: 65.208.228.223 (65.208.228.223), Dst: 145.254.
         [Bad: False]
     Source: 65.208.228.223 (65.208.228.223)
     Destination: 145.254.160.237 (145.254.160.237)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
 Transmission Control Protocol, Src Port: http (80), Dst Port: tip2 (3372), Seq: 290236745, Ack: 951058420, Len: 0
     Source port: http (80)
     Destination port: tip2 (3372)
@@ -7562,4 +7654,4 @@ Transmission Control Protocol, Src Port: http (80), Dst Port: tip2 (3372), Seq: 
 0010  00 28 00 00 40 00 2f 06 f2 34 41 d0 e4 df 91 fe   .(..@./..4A.....
 0020  a0 ed 00 50 0d 2c 11 4c a9 49 38 af ff f4 50 10   ...P.,.L.I8...P.
 0030  19 20 3c 63 00 00                                 . <c..
---------------------------------------------------
+
