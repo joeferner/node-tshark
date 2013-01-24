@@ -14,7 +14,9 @@
   "author": "Joe Ferner <joe@fernsroth.com>",
   "license": "MIT",
   "dependencies": {
-    "nodeunit": "~0.7.4",
     "lazy": "git://github.com/pkrumins/node-lazy.git"
+  },
+  "devDependencies": {
+    "nodeunit": "~0.7.4"
   }
 }
