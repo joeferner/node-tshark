@@ -1,0 +1,97 @@
+Frame 1: 62 bytes on wire (496 bits), 62 bytes captured (496 bits) on interface 0
+    Interface id: 0
+    WTAP_ENCAP: 1
+    Arrival Time: May 13, 2004 06:17:08.222534000 EDT
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1084443428.222534000 seconds
+    [Time delta from previous captured frame: 0.000000000 seconds]
+    [Time delta from previous displayed frame: 0.000000000 seconds]
+    [Time since reference or first frame: 0.000000000 seconds]
+    Frame Number: 1
+    Frame Length: 62 bytes (496 bits)
+    Capture Length: 62 bytes (496 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ip:tcp]
+Ethernet II, Src: fe:ff:20:00:01:00 (fe:ff:20:00:01:00), Dst: Xerox_00:00:00 (00:00:01:00:00:00)
+    Destination: Xerox_00:00:00 (00:00:01:00:00:00)
+        Address: Xerox_00:00:00 (00:00:01:00:00:00)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: fe:ff:20:00:01:00 (fe:ff:20:00:01:00)
+        Address: fe:ff:20:00:01:00 (fe:ff:20:00:01:00)
+        .... ..1. .... .... .... .... = LG bit: Locally administered address (this is NOT the factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IP (0x0800)
+Internet Protocol Version 4, Src: 65.208.228.223 (65.208.228.223), Dst: 145.254.160.237 (145.254.160.237)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..00 = Explicit Congestion Notification: Not-ECT (Not ECN-Capable Transport) (0x00)
+    Total Length: 48
+    Identification: 0x0000 (0)
+    Flags: 0x02 (Don't Fragment)
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 47
+    Protocol: TCP (6)
+    Header checksum: 0xf22c [correct]
+        [Good: True]
+        [Bad: False]
+    Source: 65.208.228.223 (65.208.228.223)
+    Destination: 145.254.160.237 (145.254.160.237)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+Transmission Control Protocol, Src Port: http (80), Dst Port: tip2 (3372), Seq: 290218379, Ack: 951057940, Len: 0
+    Source port: http (80)
+    Destination port: tip2 (3372)
+    [Stream index: 0]
+    Sequence number: 290218379
+    Acknowledgment number: 951057940
+    Header length: 28 bytes
+    Flags: 0x012 (SYN, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Nonce: Not set
+        .... 0... .... = Congestion Window Reduced (CWR): Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 0... = Push: Not set
+        .... .... .0.. = Reset: Not set
+        .... .... ..1. = Syn: Set
+            [Expert Info (Chat/Sequence): Connection establish acknowledge (SYN+ACK): server port http]
+                [Message: Connection establish acknowledge (SYN+ACK): server port http]
+                [Severity level: Chat]
+                [Group: Sequence]
+        .... .... ...0 = Fin: Not set
+    Window size value: 5840
+    [Calculated window size: 5840]
+    Checksum: 0x5bdc [validation disabled]
+        [Good Checksum: False]
+        [Bad Checksum: False]
+    Options: (8 bytes), Maximum segment size, No-Operation (NOP), No-Operation (NOP), SACK permitted
+        Maximum segment size: 1380 bytes
+            Kind: MSS size (2)
+            Length: 4
+            MSS Value: 1380
+        No-Operation (NOP)
+            Type: 1
+                0... .... = Copy on fragmentation: No
+                .00. .... = Class: Control (0)
+                ...0 0001 = Number: No-Operation (NOP) (1)
+        No-Operation (NOP)
+            Type: 1
+                0... .... = Copy on fragmentation: No
+                .00. .... = Class: Control (0)
+                ...0 0001 = Number: No-Operation (NOP) (1)
+        TCP SACK Permitted Option: True
+            Kind: SACK Permission (4)
+            Length: 2
+
+0000  00 00 01 00 00 00 fe ff 20 00 01 00 08 00 45 00   ........ .....E.
+0010  00 30 00 00 40 00 2f 06 f2 2c 41 d0 e4 df 91 fe   .0..@./..,A.....
+0020  a0 ed 00 50 0d 2c 11 4c 61 8b 38 af fe 14 70 12   ...P.,.La.8...p.
+0030  16 d0 5b dc 00 00 02 04 05 64 01 01 04 02         ..[......d....
