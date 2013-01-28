@@ -45,13 +45,13 @@ Internet Protocol Version 4, Src: 145.254.160.237 (145.254.160.237), Dst: 65.208
     Destination: 65.208.228.223 (65.208.228.223)
     [Source GeoIP: Unknown]
     [Destination GeoIP: Unknown]
-Transmission Control Protocol, Src Port: tip2 (3372), Dst Port: http (80), Seq: 951057940, Ack: 290218380, Len: 479
+Transmission Control Protocol, Src Port: tip2 (3372), Dst Port: http (80), Seq: 1, Ack: 1, Len: 479
     Source port: tip2 (3372)
     Destination port: http (80)
     [Stream index: 0]
-    Sequence number: 951057940
-    [Next sequence number: 951058419]
-    Acknowledgment number: 290218380
+    Sequence number: 1    (relative sequence number)
+    [Next sequence number: 480    (relative sequence number)]
+    Acknowledgment number: 1    (relative ack number)
     Header length: 20 bytes
     Flags: 0x018 (PSH, ACK)
         000. .... .... = Reserved: Not set
@@ -127,3 +127,4 @@ Hypertext Transfer Protocol
 01f0  77 77 77 2e 65 74 68 65 72 65 61 6c 2e 63 6f 6d   www.ethereal.com
 0200  2f 64 65 76 65 6c 6f 70 6d 65 6e 74 2e 68 74 6d   /development.htm
 0210  6c 0d 0a 0d 0a                                    l....
+

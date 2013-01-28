@@ -36,7 +36,7 @@ module.exports = {
       if (!errorOccured) {
         return test.done();
       }
-      return 0;
+      return test.fail();
     });
   },
 
@@ -51,7 +51,7 @@ module.exports = {
     parser.parseFile(path.resolve(testDataPath, 'httpSplit_00003_20040513061708.tshark'));
     parser.on('packet', function(packet) {
       if (errorOccured) {
-        return 0;
+        return test.fail();
       }
       //console.log(packet);
       packetCount++;

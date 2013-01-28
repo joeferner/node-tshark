@@ -45,12 +45,12 @@ Internet Protocol Version 4, Src: 145.254.160.237 (145.254.160.237), Dst: 65.208
     Destination: 65.208.228.223 (65.208.228.223)
     [Source GeoIP: Unknown]
     [Destination GeoIP: Unknown]
-Transmission Control Protocol, Src Port: tip2 (3372), Dst Port: http (80), Seq: 951057940, Ack: 290218380, Len: 0
+Transmission Control Protocol, Src Port: tip2 (3372), Dst Port: http (80), Seq: 1, Ack: 1, Len: 0
     Source port: tip2 (3372)
     Destination port: http (80)
     [Stream index: 0]
-    Sequence number: 951057940
-    Acknowledgment number: 290218380
+    Sequence number: 1    (relative sequence number)
+    Acknowledgment number: 1    (relative ack number)
     Header length: 20 bytes
     Flags: 0x010 (ACK)
         000. .... .... = Reserved: Not set
@@ -74,3 +74,4 @@ Transmission Control Protocol, Src Port: tip2 (3372), Dst Port: http (80), Seq: 
 0010  00 28 0f 44 40 00 80 06 91 f0 91 fe a0 ed 41 d0   .(.D@.........A.
 0020  e4 df 0d 2c 00 50 38 af fe 14 11 4c 61 8c 50 10   ...,.P8....La.P.
 0030  25 bc 79 64 00 00                                 %.yd..
+
