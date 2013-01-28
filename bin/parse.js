@@ -1,4 +1,7 @@
 'use strict';
+//This is used to generate test data from tshark files for using with the tshark reassembler.
+//After creating the text, the following alterations need to be performed:
+//Global replace on 'new Buffer to new Buffer and global replace on ' \}\n\}); to \}\n\});
 var optimist = require('optimist');
 var tshark = require('../');
 
@@ -19,11 +22,15 @@ if (args.help) {
 
 parser.parseFile(args.file);
 parser.on('packet', function(packet) {
-
-  console.log(packet);
+  var bufferString = packet.tcp.data.toString() || "0";
+  bufferString = encodeURI(bufferString);
+  packet.tcp.data = "new Buffer(\"" + bufferString + "\")";
+  console.log("reassembler.push({\n  ip:", packet.ip, ",");
+  console.log("  tcp:", packet.tcp);
+  console.log("});\n");
 });
 parser.on('error', function(err) {
-  console.log("error:");  
+  console.log("error:", err);  
   process.exit(-1);    
 });
 parser.on('end', function() {
