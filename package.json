@@ -15,7 +15,8 @@
   "license": "MIT",
   "dependencies": {
     "lazy": "git://github.com/pkrumins/node-lazy.git",
-    "optimist": "~0.3.5"
+    "optimist": "~0.3.5",
+    "pcap-parser": "~0.2.1"
   },
   "devDependencies": {
     "nodeunit": "~0.7.4"
