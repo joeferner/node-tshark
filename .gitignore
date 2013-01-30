@@ -5,3 +5,5 @@ node_modules
 .lock*
 npm-debug.log
 .idea
+testData/tmp_packets
+testData/tmp_packets/*
