@@ -43,5 +43,22 @@ module.exports = {
         if (!err) test.done();
       });
     });
+  },
+
+  "convert pcap file to tshark read stream": function(test) {
+    var errOccurred = false;
+    var pcapConverter = new tshark.PcapConverter();
+    // pcapConverter.createStream(path.resolve(testDataPath, 'http.pcap')).pipe(process.stdout);
+    pcapConverter.createStream(path.resolve(testDataPath, 'http.pcap'));
+
+    // pcapConverter.on('error', function(err){
+    //   errOccurred = true;
+    //   return test.fail(err);
+    // });
+    // pcapConverter.on('data', function(data) {
+    //   fs.open(path.resolve(testDataPath, 'http.tshark'), 'r', function(err, fd){
+    //     if (!err) test.done();
+    //   });
+    // });
   }
 };
