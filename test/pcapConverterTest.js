@@ -48,8 +48,8 @@ module.exports = {
   "convert pcap file to tshark read stream": function(test) {
     var errOccurred = false;
     var pcapConverter = new tshark.PcapConverter();
-    pcapConverter.createStream(path.resolve(testDataPath, 'http.pcap')).pipe(process.stdout);
-    // pcapConverter.createStream(path.resolve(testDataPath, 'ethereal.com.pcap'));
+    // pcapConverter.createStream(path.resolve(testDataPath, 'http.pcap')).pipe(process.stdout);
+    pcapConverter.createStream(path.resolve(testDataPath, 'ethereal.com.pcap'));
 
     // pcapConverter.on('error', function(err){
     //   errOccurred = true;

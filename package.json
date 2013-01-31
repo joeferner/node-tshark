@@ -16,7 +16,8 @@
   "dependencies": {
     "lazy": "git://github.com/pkrumins/node-lazy.git",
     "optimist": "~0.3.5",
-    "pcap-parser": "~0.2.1"
+    "pcap-parser": "~0.2.1",
+    "async": "~0.1.22"
   },
   "devDependencies": {
     "nodeunit": "~0.7.4"
