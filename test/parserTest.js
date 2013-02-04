@@ -2,6 +2,7 @@
 
 var tshark = require('../');
 var path = require('path');
+var fs = require('fs');
 
 var testDataPath = path.resolve(__dirname, '../testData');
 
@@ -68,6 +69,40 @@ module.exports = {
         return test.done();
       }
       return 0;
+    });
+  },
+
+  "parse stream": function(test) {
+    var errorOccured = false;
+    var foundHttpRequest = false;
+    var parser = new tshark.Parser();
+    parser.parseStream(fs.createReadStream(path.resolve(testDataPath, 'http.tshark')));
+    parser.on('packet', function(packet) {
+      if (errorOccured) {
+        return 0;
+      }
+      //console.log(packet);
+      if (!packet.tcp || packet.tcp.streamIndex != 0 || packet.tcp.destPort != 80 || packet.tcp.data.length == 0) {
+        return 0;
+      }
+      var request = packet.tcp.data.toString();
+      test.ok(request.indexOf('GET /download.html HTTP/1.1') >= 0);
+      test.ok(request.indexOf('Host: www.ethereal.com') >= 0);
+      foundHttpRequest = true;
+      return 0;
+    });
+    parser.on('error', function(err) {
+      errorOccured = true;
+      return test.done(err);
+    });
+    parser.on('end', function() {
+      if (!foundHttpRequest) {
+        return test.fail("did not find HTTP request");
+      }
+      if (!errorOccured) {
+        return test.done();
+      }
+      return test.fail();
     });
   }
 };
