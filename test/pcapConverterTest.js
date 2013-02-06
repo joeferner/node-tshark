@@ -52,5 +52,14 @@ module.exports = {
       }
       test.done();
     });
+  },
+
+  "pcapConverter streams2": function(test) {
+    var errOccurred = null;
+    var pcapConverter = new tshark.PcapConverter({
+      file: path.resolve(testDataPath, 'http.pcap')
+    });
+    var ws = fs.createWriteStream('/Users/seanpilk/NearInfinity/node-tshark/tessttttt.tshark');
+    pcapConverter.pipe(ws);
   }
 };
