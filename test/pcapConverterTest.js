@@ -59,7 +59,17 @@ module.exports = {
     var pcapConverter = new tshark.PcapConverter({
       file: path.resolve(testDataPath, 'http.pcap')
     });
-    var ws = fs.createWriteStream('/Users/seanpilk/NearInfinity/node-tshark/tessttttt.tshark');
+
+    // 
+    // Not being properly emitted right now.
+    // 
+    pcapConverter.on('end', function () {
+      console.error('meow');
+      test.done();
+    }); 
+
+    var ws = fs.createWriteStream(path.resolve(testDataPath, 'http-test-streams2.tshark'));
     pcapConverter.pipe(ws);
+
   }
 };
