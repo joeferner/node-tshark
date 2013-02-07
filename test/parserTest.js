@@ -3,6 +3,9 @@
 var tshark = require('../');
 var path = require('path');
 var fs = require('fs');
+var child = require('child_process');
+var http = require('http');
+var util = require("util");
 
 var testDataPath = path.resolve(__dirname, '../testData');
 
@@ -72,7 +75,7 @@ module.exports = {
     });
   },
 
-  "parse stream": function(test) {
+  "parse  standardized stream": function(test) {
     var errorOccured = false;
     var foundHttpRequest = false;
     var parser = new tshark.Parser();
@@ -104,5 +107,57 @@ module.exports = {
       }
       return test.fail();
     });
-  }
+  },
+  "parse random stream": function(test) {
+    var errorOccured = false;
+    var success = false;
+    var parser = new tshark.Parser();
+    var pcapConverter = new tshark.PcapConverter();
+
+    var tcpDump = child.spawn('tcpdump', ['-s0', '-i', '3', '-w', '-']);
+    /*
+      -s 0: Sets capture byte to max size
+      -i 3: Capture on en1 wireless interface
+      -w -: Write to stdout
+    */
+    //Convert Stream
+    pcapConverter.convertStream(tcpDump.stdout)
+    //Set parser
+    parser.parseStream(pcapConverter);
+    //Make call to www.google.com
+    http.get("http://www.google.com/", function(res){
+      res.on('error', function(err){
+        console.log("$$$$$$$ COULDN'T FIND GOOGLE $$$$$$$$$");
+        errorOccured = true;
+      });
+    });
+
+
+    //Event listeners
+    parser.on('packet', function(packet){
+      if (errorOccured){
+        return 0;
+      }
+      if (packet.tcp && packet.tcp.data.toString().search('Host: www.google.com') > 0){
+        success=true;
+        return 0;
+      }
+    });
+    parser.on('error', function(err) {
+      //console.log(err);
+      errorOccured = true;
+      return test.done(err);
+    });
+    parser.on('end', function() {
+      if (!errorOccured && success) {
+        return test.done();
+      }
+      return test.fail();
+    });
+
+    //Set kill timeout
+    setTimeout(function(){
+      process.kill(tcpDump.pid);
+    }, 1250);
+  },
 };
