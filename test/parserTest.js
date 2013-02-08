@@ -109,7 +109,7 @@ module.exports = {
     });
   },
   "parse random stream": function(test) {
-    var errorOccured = false;
+    var errorOccurred = false;
     var success = false;
     var parser = new tshark.Parser();
     var pcapConverter = new tshark.PcapConverter();
@@ -128,14 +128,14 @@ module.exports = {
     http.get("http://www.google.com/", function(res){
       res.on('error', function(err){
         console.log("$$$$$$$ COULDN'T FIND GOOGLE $$$$$$$$$");
-        errorOccured = true;
+        errorOccurred = true;
       });
     });
 
 
     //Event listeners
     parser.on('packet', function(packet){
-      if (errorOccured){
+      if (errorOccurred){
         return 0;
       }
       if (packet.tcp && packet.tcp.data.toString().search('Host: www.google.com') > 0){
@@ -145,11 +145,11 @@ module.exports = {
     });
     parser.on('error', function(err) {
       //console.log(err);
-      errorOccured = true;
+      errorOccurred = true;
       return test.done(err);
     });
     parser.on('end', function() {
-      if (!errorOccured && success) {
+      if (!errorOccurred && success) {
         return test.done();
       }
       return test.fail();
