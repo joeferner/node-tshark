@@ -57,15 +57,17 @@ pcapConverter.on('packet', function(packet) {
   output.write(packet + '\n');
 });
 pcapConverter.on('end', function() {
-  output.write('end' + '\n');
-  process.exit(0);
+  outputMetrics(pcapConverter, function () {
+    output.write('end' + '\n');
+    process.exit(0);
+  });
 })
 
 var metricsInterval = setInterval(function() {
   outputMetrics(pcapConverter);
 }, 3000);
 
-function outputMetrics(pcapConverter) {
+function outputMetrics(pcapConverter, optionalCallback) {
   var date = new Date();
   var metrics = {
     date: date,
@@ -100,6 +102,9 @@ function outputMetrics(pcapConverter) {
   fs.appendFile(metricsFile, logString, function(err) {
     if (err) {
       throw err;
+    }
+    if (optionalCallback) {
+      return optionalCallback();
     }
   });
 }
