@@ -56,6 +56,10 @@ pcapConverter.convertStream(input);
 pcapConverter.on('packet', function(packet) {
   output.write(packet + '\n');
 });
+pcapConverter.on('end', function() {
+  output.write('end' + '\n');
+  process.exit(0);
+})
 
 var metricsInterval = setInterval(function() {
   outputMetrics(pcapConverter);
