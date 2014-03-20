@@ -7,7 +7,6 @@ var fs = require('fs');
 var sf = require('sf');
 var path = require('path');
 
-
 var argv = optimist
   .usage('Usage: tag.js [options]')
   .options('in', {
